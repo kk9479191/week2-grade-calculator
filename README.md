@@ -28,19 +28,4 @@ B: 80–89
 C: 70–79
 D: 60–69
 F: below 60
-
-
----
-
-5. test_students.txt
-Karan
-85
-90
-88
-Rahul
-70
-75
-80
-
-
 # week2-grade-calculator
