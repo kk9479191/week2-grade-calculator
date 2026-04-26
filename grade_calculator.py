@@ -66,7 +66,11 @@ def main():
 
     for i in range(n):
         print(f"{names[i]:<15} {results[i][0]:<10.2f} {results[i][1]:<10} {results[i][2]}")
-
+     
+    search = input("\nSearch student name: ")
+        for i in range(len(names)):
+           if names[i].lower() == search.lower():
+        print(f"Found: {names[i]} - Avg: {results[i][0]:.2f}, Grade: {results[i][1]}")
     # Statistics
     averages = [r[0] for r in results]
 
